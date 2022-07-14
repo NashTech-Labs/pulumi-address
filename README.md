@@ -22,7 +22,7 @@ $ gcloud config set project $MY_PROJECT_ID
 $ gcloud config list
 ```
 
-2. to set the current gcp region
+2. To set the current gcp region
 
 ```
 $ pulumi config set gcp:region <region-name>
@@ -32,7 +32,7 @@ $ pulumi config set gcp:region <region-name>
 ```
 $ pulumi new gcp-python
 ```
-4. apply changes in __main__.py and activate the virtual environment
+4. Apply changes in __main__.py and activate the virtual environment
 
 ```
 $ source venv/bin/activate
